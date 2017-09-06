@@ -1,0 +1,22 @@
+// submit for c++ or g++ 4.3.2 or above
+#include <bits/stdc++.h>  //this includes everything
+
+using namespace std;
+
+int main()
+{
+	// For google code jam, or contests where u need to give input file as input 
+	// freopen("input.in", "r", stdin);
+	// freopen("output.out", "w", stdout);
+	int n;
+	cin>>n;   //accepting input
+	cout<<"number is:"<<n<<endl; //endl means \n
+    return 0;
+}
+
+/* Note:
+1.in c++ u can declare variables anywhere
+2.if u dont use "using namespace std;" then you need to write functions as std::cin>>
+3. for including newline:  cout << n << "\n";  -this is also permitted instead of using endl;
+4.save file as name.cpp
+5.refer site "cplusplus.com" for more...

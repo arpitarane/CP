@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  freopen("test.in","r",stdin);    //input file
+  freopen("test.out","w",stdout);    //output file
+  int a,b,t,j,ans;
+  scanf("%d",&t);
+  for(j=1;j<=t;j++)
+  {
+    scanf("%d %d",&a,&b);
+    ans=a+b;
+    printf("case #%d: %d\n",j,ans);
+  }
+  return 0;
+}
+
+
+NOTE:
+1. use int main() and return 0;
+2. Dont use clrscr() and getch();
+3. In case of large input(100s and 1000s of values):
+   we use input and output files
+   Here freopen("file_name.in","file_mode",std.in);
+   this is the syntax of including file....
+    
+   *note: make sure that test.in(file_name.in) is downloaded and saved in the same folder wherein your code is saved. 
